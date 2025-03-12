@@ -1,0 +1,15 @@
+#dev utils
+r.bat
+t.bat
+
+__pycache__
+
+#security testing
+attack_test.py
+
+#particulars
+data_file
+master_password_hash
+
+#misc
+requirements.docx
