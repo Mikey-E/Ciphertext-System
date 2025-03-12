@@ -1,7 +1,7 @@
 # Encrypted Repository Manager
 
 Makes encrypted repositories of information.
-Although this is a public it is not especially intended to be easily usable by the general public,
+Although this is a public repo it is not especially intended to be easily usable by the general public,
 more so by those who know about it and have been introduced to it.
 
 If you are using this for the first time you will need to create a master_password_hash. check_master_password()
