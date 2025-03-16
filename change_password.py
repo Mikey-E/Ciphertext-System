@@ -61,8 +61,8 @@ def main():
 		exit()
 
 	newPassword = input("BE ALONE !!! and input new password: ")
-	if len(newPassword) < 16:
-		if input("WARNING: new password < 16 chars. Continue? (y/n)") != "y":
+	if len(newPassword) < 24:
+		if input("WARNING: new password < 24 chars. Continue? (y/n)") != "y":
 			exit() 
 
 	fernDec = Fernet(generate_key(oldPassword))
